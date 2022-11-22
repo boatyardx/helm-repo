@@ -1,0 +1,64 @@
+apiVersion: v1
+entries:
+  envoy-ratelimit:
+  - apiVersion: v2
+    appVersion: v1.4.0
+    created: "2022-11-22T11:03:49.427693+02:00"
+    description: A Helm chart for Envoy Rate Limit Service https://github.com/envoyproxy/ratelimit
+    digest: c77c992a490ee0ea309bbe235f6440c1e5df14e939c7f778c4d04f5b8367f604
+    name: envoy-ratelimit
+    type: application
+    urls:
+    - https://boatyardx.github.io/helm-repo/envoy-ratelimit-0.2.1.tgz
+    version: 0.2.1
+  frontend:
+  - apiVersion: v1
+    created: "2022-11-22T11:03:49.431941+02:00"
+    description: A helm chart for deploying frontend applications
+    digest: 0f5f400b712b76a48d8c0c47398b54c22917a0145fc0a26266ead956d61cdd94
+    name: frontend
+    urls:
+    - https://boatyardx.github.io/helm-repo/frontend-1.0.0.tgz
+    version: 1.0.0
+  postfix:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-11-22T11:03:49.434362+02:00"
+    description: Installs Postfix as an SMTP relay
+    digest: 5960efbe1d6a8fd8264bc539dbd2e44bda7a7c9cb65b1643b55e7c77f9527766
+    name: postfix
+    urls:
+    - https://boatyardx.github.io/helm-repo/postfix-0.1.0.tgz
+    version: 0.1.0
+  shipyard-jenkins:
+  - apiVersion: v2
+    appVersion: 2.319.2
+    created: "2022-11-22T11:03:49.442723+02:00"
+    description: A Helm chart to install Jenkins with all required plugins and base
+      configuration
+    digest: 89e9a12a29f1f8f01e2471026ed35b065fc67e5ec254ff9ca56bda8ac895aab7
+    icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png
+    name: shipyard-jenkins
+    urls:
+    - https://boatyardx.github.io/helm-repo/shipyard-jenkins-1.1.7.tgz
+    version: 1.1.7
+  spring-boot:
+  - apiVersion: v1
+    created: "2022-11-22T11:03:49.446552+02:00"
+    description: A Helm chart for Spring Boot
+    digest: 97853582bd0ab2abe3e4b13bf7c7bb11e1131609ce8fe6bfd4cc24e8d1e1b62c
+    name: spring-boot
+    urls:
+    - https://boatyardx.github.io/helm-repo/spring-boot-1.0.1.tgz
+    version: 1.0.1
+  strapi:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-11-22T11:03:49.450234+02:00"
+    description: A Strapi Helm chart for Kubernetes
+    digest: 53c3b33491978447c2160708e1b105aebd286c6d6fd3f55cd6022e2d8bc0ff79
+    name: strapi
+    urls:
+    - https://boatyardx.github.io/helm-repo/strapi-0.0.1.tgz
+    version: 0.0.1
+generated: "2022-11-22T11:03:49.424143+02:00"
