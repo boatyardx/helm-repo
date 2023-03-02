@@ -3,9 +3,9 @@ entries:
   envoy-ratelimit:
   - apiVersion: v2
     appVersion: v1.4.0
-    created: "2023-03-02T12:44:52.561113+02:00"
+    created: "2023-03-02T12:50:53.209758+02:00"
     description: A Helm chart for Envoy Rate Limit Service https://github.com/envoyproxy/ratelimit
-    digest: c5337e34fb761aca059c648a1138f506b7184e8576ad8113f562973060b73616
+    digest: eec0ca12d2248647430904016b69bf2ff90ccebeaeb43ea28f710db1fd9589e1
     name: envoy-ratelimit
     type: application
     urls:
@@ -13,9 +13,9 @@ entries:
     version: 0.2.1
   frontend:
   - apiVersion: v1
-    created: "2023-03-02T12:44:52.56431+02:00"
+    created: "2023-03-02T12:50:53.213307+02:00"
     description: A helm chart for deploying frontend applications
-    digest: 18c6e4ae198d24bdba6d1ce4d89e36b439ec806fdf210e6b7ce493e7bb6c0dad
+    digest: f0c69313533c309e89ccf89097ff1c3ab43b39cb88ea92e5d900b28a19872792
     name: frontend
     urls:
     - https://boatyardx.github.io/helm-repo/frontend-1.0.2.tgz
@@ -23,7 +23,7 @@ entries:
   keycloak:
   - apiVersion: v1
     appVersion: 11.0.2
-    created: "2023-03-02T12:44:52.570423+02:00"
+    created: "2023-03-02T12:50:53.218253+02:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
@@ -31,7 +31,7 @@ entries:
       version: 11.x.x
     description: Open Source Identity and Access Management For Modern Applications
       and Services
-    digest: 35c6ba2fd63e11df5963fb3538c8810c01ab8d554c2212e170d0aa3f80f0dc85
+    digest: df76af9b7d513caf5cfa43d17628b38fd7982ecd8a6ffe1a87b6026ac25cdd65
     home: https://www.keycloak.org/
     icon: https://www.keycloak.org/resources/images/keycloak_logo_480x108.png
     keywords:
@@ -57,9 +57,9 @@ entries:
   postfix:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2023-03-02T12:44:52.573238+02:00"
+    created: "2023-03-02T12:50:53.221112+02:00"
     description: Installs Postfix as an SMTP relay
-    digest: 61f1ec5b9a1f9d7c6591e47fa00226af4067bfaf038427d290037a65ea694d12
+    digest: 62bee2d7d0ae5579e6f02e775065cc719b777a181d5a64ce102f9dba36ae7995
     name: postfix
     urls:
     - https://boatyardx.github.io/helm-repo/postfix-0.1.0.tgz
@@ -67,10 +67,10 @@ entries:
   shipyard-jenkins:
   - apiVersion: v2
     appVersion: 2.319.2
-    created: "2023-03-02T12:44:52.577903+02:00"
+    created: "2023-03-02T12:50:53.226938+02:00"
     description: A Helm chart to install Jenkins with all required plugins and base
       configuration
-    digest: 8145b559e1da2027a06a54c4d775cfbeb3d3e7fc1bf352247087e6c4cb2dbc4a
+    digest: 59f8dfc0a708c85ae70d82e98d567e8e562dddaab141d3c14bd691cb94755d3b
     icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png
     name: shipyard-jenkins
     urls:
@@ -95,13 +95,13 @@ entries:
   shipyard-sonarqube:
   - apiVersion: v1
     appVersion: 8.7.0-community
-    created: "2023-03-02T12:44:52.588951+02:00"
+    created: "2023-03-02T12:50:53.237784+02:00"
     dependencies:
     - name: sonarqube
       repository: https://SonarSource.github.io/helm-chart-sonarqube
       version: 6.0.1+425
     description: SonarQube is an open sourced code quality scanning tool
-    digest: 0d87797d02d1bde7ff26a0c1093a8b45c738630ddac80d7664c730eeddd5830b
+    digest: 82fd71951db281f98545d15e7e85dd5d045945fd1c39ddf970a297d322e0667d
     icon: https://upload.wikimedia.org/wikipedia/commons/e/e6/Sonarqube-48x200.png
     name: shipyard-sonarqube
     urls:
@@ -109,9 +109,9 @@ entries:
     version: 1.0.0
   spring-boot:
   - apiVersion: v1
-    created: "2023-03-02T12:44:52.592315+02:00"
+    created: "2023-03-02T12:50:53.241094+02:00"
     description: A Helm chart for Spring Boot
-    digest: 56c6542aefb07026f3fb33ad49a75f86094a2d65a353d8de56288b2aa56c3902
+    digest: 630ce1bf53a16778d121a654db4834c22955fad863d1f74b4bac6011e1752890
     name: spring-boot
     urls:
     - https://boatyardx.github.io/helm-repo/spring-boot-1.0.3.tgz
@@ -119,11 +119,11 @@ entries:
   strapi:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2023-03-02T12:44:52.595287+02:00"
+    created: "2023-03-02T12:50:53.244112+02:00"
     description: A Strapi Helm chart for Kubernetes
-    digest: eebdd7df7abf2e1c927041d3223ba265cbcf5a6608668aaad75d79c73c0fe3df
+    digest: b3f307ed960827d00d8a82c2dcef908f6807be778aa294cd8d7c2973e981a3c7
     name: strapi
     urls:
     - https://boatyardx.github.io/helm-repo/strapi-0.0.1.tgz
     version: 0.0.1
-generated: "2023-03-02T12:44:52.55787+02:00"
+generated: "2023-03-02T12:50:53.207996+02:00"
